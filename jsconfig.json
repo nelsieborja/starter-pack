@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src/js",
+    "paths": {
+      "Actions/*": ["redux/actions/*"],
+      "Middlewares/*": ["redux/middlewares/*"],
+      "Reducers/*": ["redux/reducers/*"],
+      "Store/*": ["redux/store/*"],
+
+      "Components/*": ["components/*"],
+      "Constants/*": ["constants/*"],
+      "Hooks/*": ["hooks/*"],
+      "Materials/*": ["materials/*"],
+      "Styled/*": ["styled/*"],
+      "Helpers/*": ["helpers/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
